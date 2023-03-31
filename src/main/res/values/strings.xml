@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">MyCalculator</string>
+    <string name="MOD">MOD</string>
+    <string name="GCD">GCD</string>
+</resources>
