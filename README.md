@@ -1,4 +1,4 @@
-# SUSTC_EE317_Android_applications
+# SUSTC_EE317_Android_applications-Calculator
 Some naive projects in EE317, 2023Spring. Besides, the ability of the programmer(myself) is...always doubtful, so take it easy then looking up to those mountain codes...
 
 # Function
