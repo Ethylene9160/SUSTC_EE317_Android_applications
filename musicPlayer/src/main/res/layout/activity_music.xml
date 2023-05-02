@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              tools:context=".MusicActivity"
+              android:background="@drawable/bg"
+              android:orientation="vertical">
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_title"
+            android:text=""
+            android:gravity="center"
+            android:layout_marginTop="40dp"
+            android:textColor="#ffa"
+            android:textSize="30sp"/>
+
+    <ImageView
+            android:id="@+id/iv_cover"
+            android:layout_width="230dp"
+            android:layout_height="230dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="40dp"/>
+
+    <SeekBar
+            android:id="@+id/sb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"/>
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp">
+
+        <TextView
+                android:id="@+id/tv_progress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="00:00"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+        <TextView
+                android:id="@+id/tv_total"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="00:00"
+                android:layout_alignParentRight="true"
+                android:textSize="20sp"
+                android:textColor="@color/black"/>
+
+    </RelativeLayout>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="5dp"
+            android:weightSum="4">
+
+
+        <Button
+                android:id="@+id/btn_pause"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="播放"
+                android:textSize="25sp"
+                android:layout_weight="1"
+                android:layout_margin="5dp"
+                android:background="#ffa"/>
+
+        <Button
+                android:id="@+id/btn_commence"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="评论"
+                android:textSize="25sp"
+                android:layout_weight="1"
+                android:layout_margin="5dp"
+                android:background="#ffa"/>
+
+        <Button
+                android:id="@+id/btn_next"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="下一首"
+                android:layout_margin="5dp"
+                android:background="#ffa"
+                android:layout_weight="1"/>
+
+        <Button
+                android:id="@+id/btn_mode"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:text="资料库随机"
+                android:background="#ffa"
+                android:layout_weight="1"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>
