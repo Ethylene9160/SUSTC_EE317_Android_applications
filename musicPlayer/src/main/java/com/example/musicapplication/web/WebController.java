@@ -6,9 +6,8 @@ import java.io.*;
 import java.net.Socket;
 
 public class WebController {
-//    public static String SERVER_ADDRESS = "115.236.153.174";
-//    public static final int SERVER_PORT = 45737;
-    public static String SERVER_ADDRESS = "10.27.143.118";
+
+    public static String SERVER_ADDRESS = "127.0.0.1";//your ipv4 address
     public static final int SERVER_PORT = 8888;
     private WebInterface web;
     private Socket serverSocket;
